@@ -8,15 +8,14 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/pointer-test.exe",
+            "program": "${workspaceFolder}/app.exe",
             "args": [],
             "stopAtEntry": false,
+            "externalConsole": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gdb.exe",
-            // "miDebuggerPath": "C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -24,8 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active file"
+            "preLaunchTask": "g++.exe build active file",
         }
-
     ]
 }
